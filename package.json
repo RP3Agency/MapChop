@@ -1,5 +1,28 @@
 {
   "name": "mapchop",
+  "version": "0.0.5",
+  "description": "A node.js script to handle breaking image maps into tile-based images for use in mapping applications.",
+  "keywords": [
+    "map",
+    "tile",
+    "image",
+    "leaflet"
+  ],
+  "license": "MIT",
+  "bugs": { 
+    "url" : "http://github.com/RP3Agency/MapChop/issues", 
+    "email" : "bswatson@gmail.com"
+  },
+  "author": {
+    "name": "Brian Watson",
+    "email": "bswatson@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Sarah Goldman",
+      "email": "sarahrgoldman@gmail.com"
+    }
+  ],
   "dependencies": {
     "imagemagick": "~0.1.3",
     "path": "~0.4.9",
@@ -7,18 +30,12 @@
     "fs-extra": "~0.8.0"
   },
   "engines": {
-    "node": "0.10.x",
+    "node": ">=0.10.x",
     "npm": "1.2.x"
   },
-  "contributors": [
-    {
-      "name": "Sarah Goldman",
-      "email": "sarahrgoldman@gmail.com"
-    },
-    {
-      "name": "Brian Watson",
-      "email": "bswatson@gmail.com"
-    }
-  ],
-  "version": "0.0.2"
+  "bin": "./bin/mapchop.js",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/RP3Agency/MapChop"
+  }
 }
