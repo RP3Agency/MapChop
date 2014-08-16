@@ -2,6 +2,10 @@ MapChop [![Dependency Status](https://gemnasium.com/RP3Agency/MapChop.png)](http
 =======
 A node.js script to handle breaking image maps into tile-based images for use in mapping applications.
 
+Binary Dependencies
+-------------------
+- ImageMagick
+
 Installation
 ------------
 ```
