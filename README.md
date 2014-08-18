@@ -4,7 +4,7 @@ A node.js script to handle breaking image maps into tile-based images for use in
 
 Binary Dependencies
 -------------------
-- ImageMagick
+- [ImageMagick](http://www.imagemagick.org/script/binary-releases.php)
 
 Installation
 ------------
